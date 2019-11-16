@@ -1,0 +1,10 @@
+/bin/sh address = 0x1388da
+system address = 0x0003cb20
+exit address = 0x000329e0
+puts address = 0x000603b0
+
+printf@plt val addr = 0x804b388
+exit@plt val addr = 0x804b3c4
+
+/bin/sh <---> puts = 0xd852a
+system <---> puts = 0x23890
